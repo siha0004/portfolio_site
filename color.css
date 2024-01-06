@@ -1,0 +1,94 @@
+/***********************************  FARVER  ***********************************/
+
+/************** TEKSTFARVER **************/
+.txt_sol_1 {
+  color: var(--sol_1);
+}
+.txt_sol_4 {
+  color: var(--sol_4);
+}
+.txt_mur_1 {
+  color: var(--mur_1);
+}
+.txt_mur_4 {
+  color: var(--mur_4);
+}
+.txt_blom_1 {
+  color: var(--blom_1);
+}
+.txt_blom_4 {
+  color: var(--blom_4);
+}
+.txt_nat_1 {
+  color: var(--nat_1);
+}
+.txt_nat_4 {
+  color: var(--nat_4);
+}
+.txt_lilje {
+  color: var(--lilje);
+}
+.txt_aske {
+  color: var(--aske);
+}
+
+/************** BAGGRUNDSFARVER **************/
+.bag_sol_1 {
+  background-color: var(--sol_1);
+}
+.bag_sol_2 {
+  background-color: var(--sol_2);
+}
+.bag_sol_3 {
+  background-color: var(--sol_3);
+}
+.bag_sol_4 {
+  background-color: var(--sol_4);
+}
+
+.bag_mur_1 {
+  background-color: var(--mur_1);
+}
+.bag_mur_2 {
+  background-color: var(--mur_2);
+}
+.bag_mur_3 {
+  background-color: var(--mur_3);
+}
+.bag_mur_4 {
+  background-color: var(--mur_4);
+}
+
+.bag_blom_1 {
+  background-color: var(--blom_1);
+}
+.bag_blom_2 {
+  background-color: var(--blom_2);
+}
+.bag_blom_3 {
+  background-color: var(--blom_3);
+}
+.bag_blom_4 {
+  background-color: var(--blom_4);
+}
+
+.bag_nat_1 {
+  background-color: var(--nat_1);
+}
+.bag_nat_2 {
+  background-color: var(--nat_2);
+}
+.bag_nat_3 {
+  background-color: var(--nat_3);
+}
+.bag_nat_4 {
+  background-color: var(--nat_4);
+}
+
+/************** BORDERFARVER **************/
+.bor_sol_1 {
+  border-color: var(--sol_1);
+}
+.bor_nat_4 {
+  border-color: var(--nat_4);
+}
