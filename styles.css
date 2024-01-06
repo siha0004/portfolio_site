@@ -1,0 +1,222 @@
+/***********************************  VARIABLER  ***********************************/
+
+html {
+  --aske: #2c2a2a;
+  --lilje: #f4efeb;
+  --sol_1: #ffaa33;
+  --sol_2: #ffbf65;
+  --sol_3: #ffd499;
+  --sol_4: #ffe4bf;
+  --mur_1: #a6433a;
+  --mur_2: #bf5f56;
+  --mur_3: #d97f77;
+  --mur_4: #e5b1ad;
+  --blom_1: #59364d;
+  --blom_2: #815371;
+  --blom_3: #b286a4;
+  --blom_4: #d9b8ce;
+  --nat_1: #163065;
+  --nat_2: #3c5b9a;
+  --nat_3: #8aa8e5;
+  --nat_4: #b6caf3;
+
+  --font_1: "Open Sans", sans-serif;
+  --font_2: "Fugaz One", sans-serif;
+
+  --radius: 10 px;
+  --gap: 30px;
+  --margin: 120px;
+}
+
+/***********************************  RESET + BASE  ***********************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+main {
+  background-color: var(--lilje);
+  overflow: hidden;
+}
+
+/***********************************  BILLEDER  ***********************************/
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* margin: 2rem auto; */
+}
+
+/* .logo {
+  width: 200px;
+  padding: 1rem;
+  margin: 0; 
+}
+
+.logo_footer { 
+width: 200px;
+  padding: 1rem 0;
+  margin: 0; 
+} */
+
+/***********************************  TEKST  ***********************************/
+
+h1 {
+  /* font-family: ;
+  font-size: ;
+  text-transform: ; */
+  color: var(--aske);
+  margin: 0;
+}
+h2 {
+  /* font-family: ;
+  font-size: ;
+  text-transform: ; */
+  color: var(--aske);
+  margin: 0;
+}
+h3 {
+  /* font-family: ;
+  font-size: ;
+  text-transform: ; */
+  color: var(--aske);
+  margin: 0;
+}
+h4 {
+  /* font-family: ;
+  font-size: ;
+  text-transform: ; */
+  color: var(--aske);
+  margin: 0;
+}
+
+p {
+  /* font-family: ;
+  font-size: ;
+  text-transform: ; */
+  color: var(--aske);
+  margin: 0;
+}
+
+.p2 {
+  /* font-family: ;
+  font-size: ;
+  text-transform: ; */
+  color: var(--aske);
+  margin: 0;
+}
+
+/***********************************  FARVER  ***********************************/
+
+/************** TEKSTFARVER **************/
+.txt_sol_1 {
+  color: var(--sol_1);
+}
+.txt_sol_4 {
+  color: var(--sol_4);
+}
+.txt_mur_1 {
+  color: var(--mur_1);
+}
+.txt_mur_4 {
+  color: var(--mur_4);
+}
+.txt_blom_1 {
+  color: var(--blom_1);
+}
+.txt_blom_4 {
+  color: var(--blom_4);
+}
+.txt_nat_1 {
+  color: var(--nat_1);
+}
+.txt_nat_4 {
+  color: var(--nat_4);
+}
+.txt_lilje {
+  color: var(--lilje);
+}
+.txt_aske {
+  color: var(--aske);
+}
+
+/************** BAGGRUNDSFARVER **************/
+.bag_sol_1 {
+  background-color: var(--sol_1);
+}
+.bag_sol_2 {
+  background-color: var(--sol_2);
+}
+.bag_sol_3 {
+  background-color: var(--sol_3);
+}
+.bag_sol_4 {
+  background-color: var(--sol_4);
+}
+
+.bag_mur_1 {
+  background-color: var(--mur_1);
+}
+.bag_mur_2 {
+  background-color: var(--mur_2);
+}
+.bag_mur_3 {
+  background-color: var(--mur_3);
+}
+.bag_mur_4 {
+  background-color: var(--mur_4);
+}
+
+.bag_blom_1 {
+  background-color: var(--blom_1);
+}
+.bag_blom_2 {
+  background-color: var(--blom_2);
+}
+.bag_blom_3 {
+  background-color: var(--blom_3);
+}
+.bag_blom_4 {
+  background-color: var(--blom_4);
+}
+
+.bag_nat_1 {
+  background-color: var(--nat_1);
+}
+.bag_nat_2 {
+  background-color: var(--nat_2);
+}
+.bag_nat_3 {
+  background-color: var(--nat_3);
+}
+.bag_nat_4 {
+  background-color: var(--nat_4);
+}
+
+/***********************************  FLEX  ***********************************/
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  /* margin: 2rem auto; */
+}
+
+@media (min-width: 800px) {
+  .grid_12_col {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--gap);
+    margin: 2rem var(--margin);
+  }
+}
