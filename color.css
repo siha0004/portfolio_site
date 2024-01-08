@@ -89,6 +89,11 @@
 .bor_sol_1 {
   border-color: var(--sol_1);
 }
+
+.bor_mur_1 {
+  border-color: var(--mur_1);
+}
+
 .bor_nat_4 {
   border-color: var(--nat_4);
 }
