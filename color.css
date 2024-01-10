@@ -33,6 +33,9 @@
 }
 
 /************** BAGGRUNDSFARVER **************/
+.bag_lilje {
+  background-color: var(--lilje);
+}
 .bag_sol_1 {
   background-color: var(--sol_1);
 }

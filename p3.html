@@ -7,6 +7,10 @@
     <meta name="robots" content="noindex">
 
     <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
     <title>Tema 4</title>
 
@@ -23,17 +27,17 @@
 </head>
 
 <body>
-    <header>
+    <header class="bag_sol_2">
         <div>
-            <a href="index.html"><img src="#" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="img/svg/logo.svg" alt="Logo" class="logo"></a>
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="p1.html">Tema 2</a></li>
-                <li><a href="p2.html">Tema 3</a></li>
-                <li><a href="p3.html">Tema 4</a></li>
-                <li><a href="p4.html">Tema 5</a></li>
-                <li><a href="about.html">Om mig</a></li>
+                <li><a href="p1.html" class="a_mur">Tema 2</a></li>
+                <li><a href="p2.html" class="a_nat">Tema 3</a></li>
+                <li><a href="p3.html" class="a_sol valgt">Tema 4</a></li>
+                <li><a href="p4.html" class="a_blom">Tema 5</a></li>
+                <li><a href="about.html" class="a_om">Om mig</a></li>
             </ul>
             <div class="burger">
                 <div class="line"></div>
@@ -43,12 +47,13 @@
         </nav>
     </header>
     <main>
-        <div class="max">
-            <div class="hero bag_sol_1">
-                <div class="title bag_sol_3 place_t3_1">
-                    <h1 class="txt_blom_1">Astro</h1>
-                </div>
+        <div class="hero bag_sol_2">
+            <div class="title bag_sol_3 place_t3_1">
+                <h1 class="txt_blom_1">Astro</h1>
             </div>
+        </div>
+
+        <div class="max">
 
             <!-- GRID 1 -->
             <div class="grid g12_8">
@@ -58,7 +63,7 @@
                     <p>Udviklingen af et spil ved brug af Javascript og CSS-animation, hvor spildesignet er rentegnet i
                         Adobe Illustrator.</p>
                 </div>
-                <div class="t4_g1_3">
+                <div class="t4_g1_3 center">
                     <a href="https://sifski.dk/kea/04_animation/website/" target="_blank" class="knap">spil nu</a>
                 </div>
                 <div class="e2 bor_blom_1 t4_g1_4">
@@ -178,9 +183,10 @@
                         et spørgeskema som
                         spillerne kunne svare på, så jeg kunne få feedback.</p>
                 </div>
-                <a href="https://docs.google.com/forms/d/1YoInwb7eJkiEDeK6Ehz_4RGD3pWa19b3PIVdm0tT99o/edit#responses"
-                    target="_blank" class="knap">Spørgeskema</a>
-
+                <div class="t4_g5_1x center">
+                    <a href="https://docs.google.com/forms/d/1YoInwb7eJkiEDeK6Ehz_4RGD3pWa19b3PIVdm0tT99o/edit#responses"
+                        target="_blank" class="knap">Spørgeskema</a>
+                </div>
                 <img src="img/webp/q_1.webp" alt="Spørgeskemaspørgsmål 1" class="t4_g5_2">
                 <div class="e3 t4_g5_2x">
                     <p>Svar fra spørgeskemaundersøgelse</p>
@@ -191,7 +197,11 @@
 
         </div>
     </main>
-    <footer></footer>
+    <footer class="bag_sol_2">
+        <div>
+            <h5 class="txt_lilje">Portfoliosite af Sif Melkane hansen</h5>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
